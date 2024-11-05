@@ -11,6 +11,43 @@
     margin: 0 auto;
 }
 
+.barra {
+    padding: 10px;
+    border-color: var(--corSecundaria);
+    text-align: center;
+    margin-top: 350px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container {
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .barra {
+        padding: 10px;
+        border-color: var(--corSecundaria);
+        text-align: center;
+        margin-top: 380px;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .barra {
+        padding: 10px;
+        border-color: var(--corSecundaria);
+        text-align: center;
+        margin-top: 380px;
+        margin-left: 0px;
+    }
+}
+
+
 :root {
     --corPrincipal: #2fd9;
     --corSecundaria: #111;
